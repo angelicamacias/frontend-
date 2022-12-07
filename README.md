@@ -29,6 +29,16 @@ Research shows that students who make learning a habit are more likely to reach 
 ```
 ### HTML HEADINGS
 When you see large headlines on the web page they are usually creatd using the heading tags. 
+```
+<h1> To <h6>
+<h1> I have 4 cats </h1>
+<h2> I have 4 cats </h2>
+<h3> I have 4 cats </h3>
+<h4> I have 4 cats </h4>
+<h5> I have 4 cats </h5>
+<h6> I have 4 cats </h6>
+```
+This will be:
 <h1> To <h6>
 <h1> I have 4 cats </h1>
 <h2> I have 4 cats </h2>
