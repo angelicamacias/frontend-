@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+        
+    <script>
+    function save() {
+        var Name =  document.getElementById('firstname').value;
+          localStorage.setItem('text', Name);
+    
+    }
+    
+    function retrieve() {
+        var retrieveData = localStorage.getItem('text');
+         if(retrieveData) {
+            document.getElementById('firstname').value= retrieveData;
+    
+         }
+
+    function removed() {
+
+        document.getElementById('firstname').value='';
+        localStorage.removeItem('text');
+
+    }
+
+    
+    }
+    
+    </script>
+    
+</head>
+
+
+<body onl="retrieve()">
+    <h1> Enter your firstname</h1>
+<form>
+    <input type="text" id ="firstame"/>
+    <input type="botton" value="save" onclick="save()"/>
+    <input type="button " value="removed" onlick="removed()" />
+</form>
+ 
+</body>
+</html>
